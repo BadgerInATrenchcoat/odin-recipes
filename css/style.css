@@ -2,22 +2,18 @@
   background-color: rgb(255, 245, 232);
 }
 
-#homepage-title {
-  font-size: 28px;
-  font-weight: 500;
-}
-
 #homepage-title,
 #recipe-title,
+.recipe,
 h2 {
   font-family: Georgia, Veranda, sans-serif;
   text-align: center;
   color: #1a1a1a
 }
 
-.recipe {
-  color: #1a1a1a;
-  text-align: center;
+#homepage-title {
+  font-size: 28px;
+  font-weight: 500;
 }
 
 #recipe-title {
@@ -25,9 +21,20 @@ h2 {
   font-weight: 500;
 }
 
+#return {
+  color:#1a1a1a;
+  background-color: rgb(177, 166, 150);
+}
+
 .cover {
   width: auto;
   height: 400px;
+}
+
+.recipe-list,
+p {
+  font-size: 15px;
+  font-family: Helvetica, "Times New Roman", sans-serif
 }
 
 h2 {
@@ -40,15 +47,4 @@ h3 {
   font-family: Georgia, Veranda, sans-serif;
   font-size: 20px;
   font-weight: 200;
-}
-
-p,
-.recipe-list {
-  font-size: 15px;
-  font-family: Helvetica, "Times New Roman", sans-serif
-}
-
-#return {
-  color:#1a1a1a;
-  background-color: rgb(177, 166, 150);
 }
