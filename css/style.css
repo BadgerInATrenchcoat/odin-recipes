@@ -1,15 +1,54 @@
 * {
   background-color: rgb(255, 245, 232);
 }
-#title {
+
+#homepage-title {
   font-size: 28px;
-  font-family: Veranda, Georgia, sans-serif;
+  font-weight: 500;
+}
+
+#homepage-title,
+#recipe-title,
+h2 {
+  font-family: Georgia, Veranda, sans-serif;
   text-align: center;
-  font-weight: 200;
   color: #1a1a1a
 }
 
 .recipe {
   color: #1a1a1a;
   text-align: center;
+}
+
+#recipe-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.cover {
+  width: auto;
+  height: 400px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+h3 {
+  color: #1a1a1a;
+  font-family: Georgia, Veranda, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+p,
+.recipe-list {
+  font-size: 15px;
+  font-family: Helvetica, "Times New Roman", sans-serif
+}
+
+#return {
+  color:#1a1a1a;
+  background-color: rgb(177, 166, 150);
 }
