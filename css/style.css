@@ -1,0 +1,15 @@
+* {
+  background-color: rgb(255, 245, 232);
+}
+#title {
+  font-size: 28px;
+  font-family: Veranda, Georgia, sans-serif;
+  text-align: center;
+  font-weight: 200;
+  color: #1a1a1a
+}
+
+.recipe {
+  color: #1a1a1a;
+  text-align: center;
+}
